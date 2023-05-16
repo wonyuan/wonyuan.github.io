@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> about </title>
+        <link rel="stylesheet" href="style-main.css">
+        <link rel="stylesheet" href="style-index.css">
+        <link rel="stylesheet" href="style-about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+        <script src="//pull.cappuccicons.com/cpf.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <script src="jquery.style-my-tooltips.js"></script>
+        <link href="style-my-tooltips.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="apple-touch-icon" href="/profile.png">
+    </head>
+
+    <body>
+        <div id="padding"></div><div id="main">
+            <div class="header">
+                <a title="about me!" href="index.html"><div class="header-logo hbtn-five"></div></a>
+                <div class="nav-side"><div class="nav-side-cov"></div></div>
+                <div class="nav">
+                    <div class="hbtn hbtn-one"><a class href="projects.html">1. projects</div></a>
+                    <div class="hbtn hbtn-two"><a class href="uxui.html"> 2. UX/UI </div></a>
+                    <div class="hbtn hbtn-three"><a class href="experience.html"> 3. experience </div></a>
+                    <div class="hbtn hbtn-four"><a class href="corner.html">4. my corner </div></a> 
+                </div> 
+            </div>
+        <div class="content" > 
+            <div class="abt-one">
+                <div class="abt-photo">
+                    <img src="images/profile.jpeg">
+                    <div class="links">
+                    <a title="linkedin" href="https://www.linkedin.com/in/catherine-yang52" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a title="some coding" href="https://github.com/wonyuan" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    <a title="contact me" href="https://www.instagram.com/57cathe/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a title="misc" href="https://www.bento.me/cath" target="_blank"><i class="fa fa-folder fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="abt-header" style="overflow-y:scroll;">
+                    <h1>i'm catherine yang,
+                    <br>
+                    <div class="carousel"><span class="txt-rotate" data-period="2000"
+                    data-rotate='[ "a product designer ", "an engineering student", "a traveller", "" ]'></span>&nbsp;★</div>
+                    studying computer engineering at mcmaster university! 🌵</h1>
+                    <br>
+                    <h2> ↓ scroll down ◡̈ </h2>
+                    <br> 
+                    <h3> hello! i'm currently a 2nd year student based in markham, 
+                         with an interest in utilizing user-friendly
+                         technology to pursue a path in systems-design engineering!
+                    </h3>
+                    <br>
+                    <h3> when i'm not learning, i'm looking for help help help help help
+                        help help help help helph help just filling in the lines here go down do gw odwond owdow dndw od wondwodowndonw  </h3>
+                
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    
+    </body>
+
+
+
+<!-- cappuccicon script -->
+<script src="//pull.cappuccicons.com/cpf.js"></script>
+
+<!-- jquery tooltip stuff -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:0,
+tip_fade_speed:500,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+<!-- button highlights -->
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+$(document).ready(function(){
+    
+$(".hbtn-one").click(function(){
+    $(".hbtn-one").addClass("hbtn-active");
+    $(".hbtn-two").removeClass("hbtn-active");
+    $(".hbtn-three").removeClass("hbtn-active");
+    $(".hbtn-four").removeClass("hbtn-active");
+    $(".allviews").css("margin-left", "0");
+});
+    
+$(".hbtn-two").click(function(){
+    $(".hbtn-one").removeClass("hbtn-active");
+    $(".hbtn-two").addClass("hbtn-active");
+    $(".hbtn-three").removeClass("hbtn-active");
+    $(".hbtn-four").removeClass("hbtn-active");
+    $(".allviews").css("margin-left", "-500px");
+});
+    
+$(".hbtn-three").click(function(){
+    $(".hbtn-one").removeClass("hbtn-active");
+    $(".hbtn-two").removeClass("hbtn-active");
+    $(".hbtn-three").addClass("hbtn-active");
+    $(".hbtn-four").removeClass("hbtn-active");
+    $(".allviews").css("margin-left", "-1000px");
+});
+    
+$(".hbtn-four").click(function(){
+    $(".hbtn-one").removeClass("hbtn-active");
+    $(".hbtn-two").removeClass("hbtn-active");
+    $(".hbtn-three").removeClass("hbtn-active");
+    $(".hbtn-four").addClass("hbtn-active");
+    $(".allviews").css("margin-left", "-1500px");
+});
+
+$(".hbtn-five").click(function(){
+    $(".hbtn-one").removeClass("hbtn-active");
+    $(".hbtn-two").removeClass("hbtn-active");
+    $(".hbtn-three").removeClass("hbtn-active");
+    $(".hbtn-four").addClass("hbtn-active");
+    $(".allviews").css("margin-left", "-1500px");
+});
+    
+$(".qna-qn").click(function(){
+    var locationA = $(this).parent();
+    $(".qna-qn",locationA).toggleClass("qna-qn-active");
+    $(".qna-ans",locationA).slideToggle();
+});
+
+}); 
+</script>
+
+
+<!-- carousel thingy lol https://gist.github.com/bpanicker13/e664419caa0127b8400a8efacf0471a3 -->
+<script>
+  var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
+</html>
+
+
