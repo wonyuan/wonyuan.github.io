@@ -18,6 +18,7 @@
 
     --color-secondary-light: #eaeaea;
     --color-secondary-lightest: #d2d2d2;
+    --color-arb: #BEBDAF;
     
     /*background colors*/
     --color-backup-one: #ffffdb;
@@ -61,7 +62,8 @@
 }
 
 body{
-    background-image:url('https://wallpapercave.com/wp/wp9748255.png');
+    /*background-image:url('https://wallpapercave.com/wp/wp9748255.png');*/
+    background-color: var(--color-arb);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
