@@ -14,13 +14,13 @@
 }
 
 .projects-content-two{
-    margin: 5px;
+    margin: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .projects-desc{
-    text-align: left;
+    text-align:left;
     width: auto;
 }
 
