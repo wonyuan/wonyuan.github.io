@@ -16,14 +16,14 @@
     margin-left: 10px;
     margin-top: 10px;
     height:350px;
-    width: 300px;
+    width: 279px;
     float: left;
     position: relative;
 
 }
 .abt-photo img{
     height: 350px;
-    width: 279.89px;
+    width: 279px;
     float: left;
     background-image: url(images/profile.jpeg);
     border-top-left-radius: 20px;
